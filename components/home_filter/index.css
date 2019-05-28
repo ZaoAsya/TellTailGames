@@ -1,0 +1,79 @@
+.home-filter {
+  font-family: 'Gabriela', serif;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.home-filter {
+  flex-direction: column;
+}
+
+.home-filter__row input {
+  font: 20px 'Roboto', sans-serif;
+}
+
+.home-filter__row {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  position: relative;
+}
+
+.home-filter__row:first-child {
+  margin-bottom: 10px;
+}
+
+.home-filter__text {
+  flex-grow: 1;
+}
+
+.home-filter__text,
+.home-filter__text:focus {
+  border: 1px solid #b3b3b3;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.home-filter__chosen-tags {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 100%;
+  width: 100%;
+  padding-right: 20px;
+  margin: 0;
+}
+
+.home-filter__chosen-tags-container {
+  display: flex;
+  flex-grow: 1;
+  min-width: 50%;
+  height: 70px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.chosen-tags__item {
+  background-color: #63bae5;
+  color: #fff;
+  border-radius: 5px;
+  font: 20px 'Gabriela', serif;
+  padding: 5px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 10px 5px 0;
+  height: 40px;
+}
+
+.chosen-tags-item__text {
+  margin-right: 0;
+}
+
+.chosen-tags-item__remove-button {
+  background-color: #63bae5;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.auth-page {
+  margin: 20px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page__title {
+  font: 50px 'Gabriela', serif;
+  margin: 20px 10px;
+}
+
+.auth-page__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page-form__input {
+  font: 25px 'Roboto', sans-serif;
+  margin: 10px;
+  padding: 10px 15px;
+  max-width: 60%;
+}
+
+.auth-page-form__file {
+  font: 25px 'Roboto', sans-serif;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.auth-page-form__submit {
+  margin-top: 20px;
+}
+
+.auth-page-form__submit.loading {
+  user-select: none;
+  opacity: 0.5;
+}
+
+.auth-page__error {
+  font: 30px 'Gabriela', serif;
+  color: #f00;
+}

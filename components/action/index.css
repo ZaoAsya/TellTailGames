@@ -1,0 +1,9 @@
+.action-item {
+  cursor: pointer;
+  background-color: #555;
+  color: #fff;
+  font: 30px 'Roboto', sans-serif;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 5px;
+}

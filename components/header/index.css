@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px 0 20px 60px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.header-item__title {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header-item__icon {
+  height: 68px;
+  width: 79px;
+  background-size: cover;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.header-user__pic {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 35px;
+}
+
+.header-user__name {
+    font: 40px 'Gabriela', serif;
+    margin: 0 10px;
+}

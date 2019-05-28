@@ -1,0 +1,14 @@
+.error {
+  margin: 20px 80px;
+}
+
+.error-item__message {
+  font-family: 'Gabriela', serif;
+  font-size: 30px;
+}
+
+.error-item__pic {
+  width: 670px;
+  height: 450px;
+  background-size: cover;
+}

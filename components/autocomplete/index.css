@@ -1,0 +1,45 @@
+.autocomplete {
+  position: relative;
+  display: flex;
+  flex-shrink: 1;
+}
+
+.autocomplete-input {
+  border: 1px solid #b3b3b3;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.autocomplete-list {
+  border: 1px solid #b3b3b3;
+  background-color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 40px;
+}
+
+.autocomplete-list:empty {
+  display: none;
+}
+
+.autocomplete-list-item {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.autocomplete-list-item:not(:nth-child(1)) {
+  margin-top: 10px;
+}
+
+.autocomplete-list__no {
+  padding: 0 10px;
+}
+
+.autocomplete__active-tag {
+  background-color: #63bae5;
+  color: #000;
+}

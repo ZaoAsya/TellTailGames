@@ -1,0 +1,50 @@
+.scene {
+  margin: 50px 60px;
+}
+
+.scene__content-desc {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  z-index: 1;
+  font: 25px 'Gabriela', serif;
+  color: #fff;
+  text-shadow: #000 0 0 10px;
+}
+
+.scene__content {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.scene__content-pic {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.scene-achieves {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.scene-actions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.scene-final {
+  font: 30px 'Gabriela', serif;
+  margin-top: 20px;
+  text-align: center;
+  color: #f00;
+}

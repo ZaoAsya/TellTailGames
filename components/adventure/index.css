@@ -1,0 +1,33 @@
+.adventures-item {
+  font-family: 'Gabriela', serif;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.adventures-item__pic {
+  height: 200px;
+  width: 350px;
+  margin-right: 30px;
+  flex-basis: 30%;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.adventures-item__info {
+  flex-basis: 60%;
+}
+
+.adventures-item__info-name {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.adventures-item__info-desc {
+  font-size: 20px;
+}
+
+.adventures-item__info-users {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

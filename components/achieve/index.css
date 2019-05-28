@@ -1,0 +1,29 @@
+.achieves-item {
+  display: flex;
+  width: 50%;
+  height: 200px;
+}
+
+.achieves-item__pic {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 100px;
+}
+
+.achieves-item__info {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.achieves-item__info-desc {
+  font-size: 30px;
+  font-family: 'Gabriela', serif;
+}
+
+.achieves-item__info-name {
+  font-size: 40px;
+  font-family: 'Gabriela', serif;
+}
